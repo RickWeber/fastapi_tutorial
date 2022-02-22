@@ -31,7 +31,10 @@ async def get_model(model_name: ModelName):
         return {"model_name": model_name, "message": "LeCNN all the images"}
     return {"model_name": model_name, "message": "Have some residuals"}
 
-
+### Okay, I've just gotten through https://fastapi.tiangolo.com/tutorial/path-params/
+# And since this is being backed up to github, I'm going to 
+# clean things up for the next tutorial instead of just
+# commenting it all out. 
 
 """
 @app.get("/")
